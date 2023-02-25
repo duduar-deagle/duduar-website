@@ -1,0 +1,30 @@
+{
+  "name": "duduar-website",
+  "version": "0.0.1",
+  "author": "Duduar Deagle",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.1",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.13",
+    "bun-framework-next": "12.2.5",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1",
+    "postcss-preset-env": "8.0.1",
+    "react-refresh": "0.14.0",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.9.5"
+  }
+}
