@@ -35,7 +35,7 @@ export default function RootLayout({
         "scroll-smooth select-none"
       )}
     >
-      <body className="text-sm text-neutralWhite bg-carbon">
+      <body className="text-xs text-neutralWhite bg-carbon">
         <div className="px-8">{children}</div>
       </body>
     </html>

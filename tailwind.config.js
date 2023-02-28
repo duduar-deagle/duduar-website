@@ -16,7 +16,17 @@ module.exports = {
         neutralWhite: "#e6e6e6",
         neutralBlack: "#212121",
         carbon: "#1c1c1c",
+        cyberBlue: "#00ffe9",
       },
     },
   },
+  plugins: [
+    function ({ addBase }) {
+      addBase({
+        html: {
+          "a, button": { cursor: "default" },
+        },
+      });
+    },
+  ],
 };
