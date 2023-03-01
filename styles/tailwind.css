@@ -530,16 +530,12 @@ html a, html button {
   margin-top: 0.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .ml-1 {
   margin-left: 0.25rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .block {
@@ -609,10 +605,6 @@ html a, html button {
   padding: 1rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -622,39 +614,14 @@ html a, html button {
   padding-right: 2rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
 }
 
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-3\.5 {
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
-}
-
-.px-2\.5 {
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
 }
 
 .text-center {
@@ -672,11 +639,6 @@ html a, html button {
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -700,6 +662,10 @@ html a, html button {
 
 .decoration-neutralWhite\/25 {
   text-decoration-color: rgb(230 230 230 / 0.25);
+}
+
+.decoration-neutralWhite {
+  text-decoration-color: #e6e6e6;
 }
 
 .decoration-2 {

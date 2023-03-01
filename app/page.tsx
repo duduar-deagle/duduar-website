@@ -18,8 +18,11 @@ export default function Page() {
           !Hola! ✋, soy <span className="text-cyberBlue">Duduar</span>
         </h1>
         <p className="px-2.5 mt-2 text-center">
-          ¿Buscas un experto en tecnología para{" "}
-          <span className="text-cyberBlue">impulsar tu proyecto</span>?
+          ¿Buscas un{" "}
+          <span className="underline decoration-2 decoration-neutralWhite/25">
+            experto en tecnología
+          </span>{" "}
+          para <span className="text-cyberBlue">impulsar tu proyecto</span>?
         </p>
         <p className="px-2.5 mt-2 text-center">
           Como desarrollador independiente, mis habilidades y experiencia en{" "}
