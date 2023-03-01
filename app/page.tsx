@@ -15,13 +15,13 @@ export default function Page() {
           />
         </picture>
         <h1 className="mt-6 font-serif text-lg text-center">
-          !Hola!, soy <span className="text-cyberBlue">Duduar</span>
+          !Hola! ✋, soy <span className="text-cyberBlue">Duduar</span>
         </h1>
-        <p className="mt-2 text-center">
+        <p className="px-2.5 mt-2 text-center">
           ¿Buscas un experto en tecnología para{" "}
           <span className="text-cyberBlue">impulsar tu proyecto</span>?
         </p>
-        <p className="mt-2 text-center">
+        <p className="px-2.5 mt-2 text-center">
           Como desarrollador independiente, mis habilidades y experiencia en{" "}
           <span className="underline decoration-2 decoration-neutralWhite/25">
             interfaz de usuario y manejo de datos
@@ -31,12 +31,12 @@ export default function Page() {
           ¡Contáctame ahora para saber cómo!
         </p>
       </Card>
-      <div className="mt-10">
+      <div className="mt-8">
         <Button>
           Hablemos <span className="ml-1">💬</span>
         </Button>
       </div>
-      <div className="mt-10 flex flex-col items-center">
+      <div className="mt-8 flex flex-col items-center">
         <ChevronUpIcon className="h-6" />
         <p>Conoce más sobre mí</p>
       </div>
