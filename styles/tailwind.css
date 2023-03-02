@@ -624,8 +624,17 @@ html a, html button {
   padding-right: 0.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-serif {
@@ -664,8 +673,8 @@ html a, html button {
   text-decoration-color: rgb(230 230 230 / 0.25);
 }
 
-.decoration-neutralWhite {
-  text-decoration-color: #e6e6e6;
+.decoration-cyberBlue {
+  text-decoration-color: #00ffe9;
 }
 
 .decoration-2 {
