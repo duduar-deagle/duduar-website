@@ -38,11 +38,9 @@ export default function Page() {
             . ¡Contáctame ahora para saber cómo!
           </p>
         </Card>
-        <div className="mt-8">
-          <Button>
-            Hablemos<span className="ml-2">💬</span>
-          </Button>
-        </div>
+        <Button marginTop="mt-8">
+          Hablemos<span className="ml-2">💬</span>
+        </Button>
         <div className="mt-8 flex flex-col items-center">
           <ChevronUpIcon className="h-6" />
           <p>Conoce más sobre mí</p>
@@ -74,11 +72,9 @@ export default function Page() {
             💯.
           </p>
         </Card>
-        <div className="mt-8">
-          <Button>
-            Explora mi perfil<span className="ml-2">🔍</span>
-          </Button>
-        </div>
+        <Button marginTop="mt-8">
+          Explora mi perfil<span className="ml-2">🔍</span>
+        </Button>
         <div className="mt-8 flex flex-col items-center">
           <ChevronUpIcon className="h-6" />
           <p>¿Quieres ver lo que puedo hacer?</p>

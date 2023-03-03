@@ -534,8 +534,12 @@ html a, html button {
   margin-top: 2rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
 }
 
 .block {
@@ -624,17 +628,8 @@ html a, html button {
   padding-right: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 .font-serif {
@@ -679,6 +674,14 @@ html a, html button {
 
 .decoration-2 {
   text-decoration-thickness: 2px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 
 .shadow-\[-2px_-2px_2px_rgba\(255\2c 255\2c 255\2c 0\.08\)\2c 2px_2px_2px_rgba\(0\2c 0\2c 0\2c 0\.56\)\2c inset_2px_2px_2px_rgba\(255\2c 255\2c 255\2c 0\.08\)\2c inset_-2px_-2px_2px_rgba\(0\2c 0\2c 0\2c 0\.56\)\] {
