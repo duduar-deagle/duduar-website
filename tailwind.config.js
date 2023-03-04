@@ -23,9 +23,7 @@ module.exports = {
   plugins: [
     function ({ addBase }) {
       addBase({
-        html: {
-          "a, button": { cursor: "default" },
-        },
+        "a, button": { cursor: "default" },
       });
     },
   ],
