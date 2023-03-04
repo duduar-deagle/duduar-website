@@ -5,7 +5,7 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 export default function Page() {
   return (
     <>
-      <main className="min-h-screen flex flex-col justify-center">
+      <main className="min-h-screen flex flex-col justify-center snap-always snap-center">
         <Card>
           <picture>
             <img
@@ -46,7 +46,10 @@ export default function Page() {
           <p>Conoce más sobre mí</p>
         </div>
       </main>
-      <section id="about" className="min-h-screen flex flex-col justify-center">
+      <section
+        id="about"
+        className="min-h-screen flex flex-col justify-center snap-center"
+      >
         <Card>
           <h2 className="font-serif text-lg text-center underline decoration-2 underline-offset-4 decoration-cyberBlue">
             <span>Acerca de mí</span>

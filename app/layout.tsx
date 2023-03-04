@@ -32,11 +32,11 @@ export default function RootLayout({
       className={clsx(
         defaultFont.variable,
         headerFont.variable,
-        "scroll-smooth select-none"
+        "snap-mandatory snap-y scroll-smooth select-none"
       )}
     >
-      <body className="text-xs text-neutralWhite bg-carbon">
-        <div className="px-8">{children}</div>
+      <body className="px-8 text-xs text-neutralWhite bg-carbon">
+        {children}
       </body>
     </html>
   );
