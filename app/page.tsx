@@ -48,7 +48,7 @@ export default function Page() {
       </main>
       <section
         id="about"
-        className="min-h-screen flex flex-col justify-center snap-center"
+        className="min-h-screen flex flex-col justify-center snap-start"
       >
         <Card>
           <h2 className="font-serif text-lg text-center underline decoration-2 underline-offset-4 decoration-cyberBlue">
