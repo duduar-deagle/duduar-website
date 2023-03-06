@@ -38,10 +38,10 @@ export default function Page() {
             . ¡Contáctame ahora para saber cómo!
           </p>
         </Card>
-        <Button marginTop="mt-8">
+        <Button marginTop="mt-10">
           Hablemos<span className="ml-2">💬</span>
         </Button>
-        <div className="mt-8 flex flex-col items-center">
+        <div className="mt-4 flex flex-col items-center">
           <ChevronUpIcon className="h-6" />
           <p>Conoce más sobre mí</p>
         </div>
@@ -75,10 +75,10 @@ export default function Page() {
             💯.
           </p>
         </Card>
-        <Button marginTop="mt-8">
+        <Button marginTop="mt-10">
           Explora mi perfil<span className="ml-2">🔍</span>
         </Button>
-        <div className="mt-8 flex flex-col items-center">
+        <div className="mt-4 flex flex-col items-center">
           <ChevronUpIcon className="h-6" />
           <p>¿Quieres ver lo que puedo hacer?</p>
         </div>
