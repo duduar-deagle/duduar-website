@@ -5,82 +5,87 @@ import { ChevronUpIcon } from "@heroicons/react/20/solid";
 export default function Page() {
   return (
     <>
-      <main className="min-h-screen flex flex-col justify-center snap-always snap-center">
-        <Card>
-          <picture>
-            <img
-              src="./images/profile/256x256.webp"
-              className="rounded-full h-24 mx-auto block grayscale"
-              loading="lazy"
-              alt="Duduar | Desarrollador independiente"
-            />
-          </picture>
-          <h1 className="mt-6 font-serif text-lg text-center">
-            !Hola! ✋, soy <span className="text-cyberBlue">Duduar</span>
-          </h1>
-          <p className="px-2.5 mt-2 text-center">
-            ¿Buscas un{" "}
-            <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
-              experto en tecnología
-            </span>{" "}
-            para <span className="text-cyberBlue">impulsar tu proyecto</span>?
-            🚀.
-          </p>
-          <p className="px-2.5 mt-2 text-center">
-            Como desarrollador independiente, mis habilidades y experiencia en{" "}
-            <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
-              interfaz de usuario y manejo de datos
-            </span>{" "}
-            pueden{" "}
-            <span className="text-cyberBlue">
-              llevarlo al siguiente nivel 🏆
-            </span>
-            . ¡Contáctame ahora para saber cómo!
-          </p>
-        </Card>
-        <Button marginTop="mt-10">
-          Hablemos<span className="ml-2">💬</span>
-        </Button>
-        <div className="mt-4 flex flex-col items-center">
-          <ChevronUpIcon className="h-6" />
-          <p>Conoce más sobre mí</p>
+      <main className="min-h-screen flex flex-col snap-always snap-center">
+        <div className="h-[calc(100vh/1.618)] p-6 flex items-center">
+          <Card>
+            <picture>
+              <img
+                src="./images/profile/256x256.webp"
+                className="rounded-full h-24 mx-auto block grayscale"
+                loading="lazy"
+                alt="Duduar | Desarrollador independiente"
+              />
+            </picture>
+            <h1 className="mt-6 font-serif text-lg text-center">
+              !Hola! ✋, soy <span className="text-cyberBlue">Duduar</span>
+            </h1>
+            <p className="px-2.5 mt-2 text-center">
+              ¿Buscas un{" "}
+              <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
+                experto en tecnología
+              </span>{" "}
+              para <span className="text-cyberBlue">impulsar tu proyecto</span>?
+              🚀.
+            </p>
+            <p className="px-2.5 mt-2 text-center">
+              Como desarrollador independiente, mis habilidades y experiencia en{" "}
+              <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
+                interfaz de usuario y manejo de datos
+              </span>{" "}
+              pueden{" "}
+              <span className="text-cyberBlue">
+                llevarlo al siguiente nivel 🏆
+              </span>
+              . ¡Contáctame ahora para saber cómo!
+            </p>
+          </Card>
+        </div>
+        <div className="h-[calc(100vh-calc(100vh/1.618))] flex flex-col justify-start gap-8">
+          <Button>
+            Hablemos<span className="ml-2">💬</span>
+          </Button>
+          <div className="flex flex-col items-center">
+            <ChevronUpIcon className="h-6" />
+            <p>Conoce más sobre mí</p>
+          </div>
         </div>
       </main>
-      <section
-        id="about"
-        className="min-h-screen flex flex-col justify-center snap-start"
-      >
-        <Card>
-          <h2 className="font-serif text-lg text-center underline decoration-2 underline-offset-4 decoration-cyberBlue">
-            <span>Acerca de mí</span>
-          </h2>
-          <p className="mt-2 text-center">
-            Apasionado del{" "}
-            <span className="text-cyberBlue">desarrollo web</span> 💻, con{" "}
-            <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
-              más de 5 años de experiencia
-            </span>{" "}
-            en el campo. Me encanta trabajar en{" "}
-            <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
-              proyectos que desafíen mi creatividad y habilidades técnicas
-            </span>
-            , siempre buscando{" "}
-            <span className="text-cyberBlue">soluciones innovadoras 💡</span>{" "}
-            para cada cliente. Me considero un{" "}
-            <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
-              perfeccionista que se enfoca en los detalles
-            </span>{" "}
-            para lograr{" "}
-            <span className="text-cyberBlue">resultados de alta calidad</span>{" "}
-            💯.
-          </p>
-        </Card>
-        <Button marginTop="mt-10">
-          Explora mi perfil<span className="ml-2">🔍</span>
-        </Button>
-        <div className="mt-4 flex flex-col items-center">
-          <ChevronUpIcon className="h-6" />
-          <p>¿Quieres ver lo que puedo hacer?</p>
+      <section id="about" className="min-h-screen flex flex-col snap-start">
+        <div className="h-[calc(100vh/1.618)] p-6 flex items-center">
+          <Card>
+            <h2 className="font-serif text-lg text-center underline decoration-2 underline-offset-4 decoration-cyberBlue">
+              <span>Acerca de mí</span>
+            </h2>
+            <p className="mt-2 text-center">
+              Apasionado del{" "}
+              <span className="text-cyberBlue">desarrollo web</span> 💻, con{" "}
+              <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
+                más de 5 años de experiencia
+              </span>{" "}
+              en el campo. Me encanta trabajar en{" "}
+              <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
+                proyectos que desafíen mi creatividad y habilidades técnicas
+              </span>
+              , siempre buscando{" "}
+              <span className="text-cyberBlue">soluciones innovadoras 💡</span>{" "}
+              para cada cliente. Me considero un{" "}
+              <span className="underline decoration-2 underline-offset-2 decoration-neutralWhite/25">
+                perfeccionista que se enfoca en los detalles
+              </span>{" "}
+              para lograr{" "}
+              <span className="text-cyberBlue">resultados de alta calidad</span>{" "}
+              💯.
+            </p>
+          </Card>
+        </div>
+        <div className="h-[calc(100vh-calc(100vh/1.618))] flex flex-col justify-center gap-8">
+          <Button>
+            Explora mi perfil<span className="ml-2">🔍</span>
+          </Button>
+          <div className="flex flex-col items-center">
+            <ChevronUpIcon className="h-6" />
+            <p>¿Quieres ver lo que puedo hacer?</p>
+          </div>
         </div>
       </section>
     </>

@@ -21,11 +21,11 @@ export const metadata = {
   description: "",
 };
 
-export default function RootLayout({
-  children,
-}: {
+interface Props {
   children: React.ReactNode;
-}) {
+}
+
+export default function RootLayout({ children }: Props) {
   return (
     <html
       lang="es-419"
@@ -35,9 +35,7 @@ export default function RootLayout({
         "snap-mandatory snap-y scroll-smooth select-none"
       )}
     >
-      <body className="px-8 text-xs text-neutralWhite bg-carbon">
-        {children}
-      </body>
+      <body className="text-xs text-neutralWhite bg-carbon">{children}</body>
     </html>
   );
 }
