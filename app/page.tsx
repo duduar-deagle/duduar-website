@@ -40,7 +40,7 @@ export default function Page() {
             </p>
           </Card>
         </div>
-        <div className="h-[calc(100vh-calc(100vh/1.618))] flex flex-col justify-start gap-8">
+        <div className="h-[calc(100vh-calc(100vh/1.618))] flex flex-col justify-center gap-8">
           <Button>
             Hablemos<span className="ml-2">💬</span>
           </Button>
